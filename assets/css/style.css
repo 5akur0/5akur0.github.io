@@ -17,15 +17,26 @@ body {
 }
 
 .site-header {
-    background-color: #333;
-    color: #fff;
-    padding: 1rem 0;
+    /* background-color: #333; */ /* 禁用背景颜色 */
+    color: #fff;                 /* 保持文字为白色，稍后检查可读性 */
+    padding: 6rem 0;            /* 显著增加上下内边距，你可以调整这个数值 */
     text-align: center;
+
+    /* ---- 添加背景图片部分 ---- */
+    background-image: url('https://res.cloudinary.com/dm03cvvi2/image/upload/v1744643092/250409000028360015_fuuoeg.jpg'); /* 你的图片链接 */
+    background-size: cover;       /* 图片覆盖整个区域 */
+    background-position: center center; /* 图片居中 */
+    background-repeat: no-repeat; /* 不重复 */
+    /* ---- 背景图片部分结束 ---- */
 }
+
 .site-header h1 a {
     color: #fff;
     text-decoration: none;
-    font-weight: bold;
+    font-family: "Tangerine", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3em;
 }
 .site-header p {
     color: #ccc;

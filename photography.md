@@ -1,6 +1,6 @@
 ---
 layout: default     # 使用同样的 default 布局
-title: Photography  # 页面标题
+title: Sakuro's Website | Photography  # 页面标题
 ---
 
 ## Film Photography Rolls

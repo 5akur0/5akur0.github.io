@@ -1,6 +1,6 @@
 ---
 layout: default   # 指定使用 _layouts/default.html 这个模板
-title: Home       # 这个页面的标题
+title: Sakuro's Website | Home       # 这个页面的标题
 ---
 
 ## Welcome!

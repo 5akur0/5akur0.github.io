@@ -11,6 +11,7 @@ github_username: 5akur0            # 你的 GitHub 用户名
 markdown: kramdown             # 使用的 Markdown 渲染器
 plugins:                       # 使用的插件列表
   - jekyll-feed
+  - jekyll-seo-tag
 
 # --- 排除文件 ---
 # 下列文件或文件夹不会被 Jekyll 处理

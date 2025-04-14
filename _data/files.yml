@@ -1,0 +1,30 @@
+- id: portra400_roll1 # 唯一 ID，用于链接等
+  name: "Kodak Portra 400"
+  format: "135" # 胶卷格式，如 135, 120
+  iso: 400
+  shot_date: "2024-10-26"
+  develop_info: "Standard C-41 by Lab X"
+  notes: "First roll with the new camera. Trip to the mountains."
+  photos: # 照片列表 (文件名假设稍后会放在 assets/images/ )
+    - filename: "mountain_01.jpg"
+      title: "Mountain Peak Sunrise"
+      location: "Alps"
+    - filename: "mountain_stream_02.jpg"
+      title: "Forest Stream"
+      location: "Alps"
+
+- id: hp5_roll1
+  name: "Ilford HP5 Plus"
+  format: "120"
+  iso: 400
+  shot_date: "2024-11-15"
+  pushed_to: 800 # 可以添加自定义字段
+  develop_info: "Self-developed, DD-X 1+4"
+  notes: "Street photography session downtown."
+  photos:
+    - filename: "street_portrait_01.jpg"
+      title: "Old Man Reading"
+      location: "City Center"
+    - filename: "architecture_01.jpg"
+      title: "Glass Building Reflection"
+      location: "City Center"

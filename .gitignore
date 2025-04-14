@@ -1,0 +1,19 @@
+# Jekyll generated site
+_site/
+
+# Jekyll Cache
+.jekyll-cache/
+.jekyll-metadata
+
+# Sass Cache
+.sass-cache/
+
+# Ruby dependencies installed by Bundler
+vendor/bundle/
+
+# Node dependencies (if you ever use them)
+node_modules/
+
+# OS generated files
+.DS_Store
+Thumbs.db

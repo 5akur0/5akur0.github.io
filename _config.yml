@@ -1,0 +1,22 @@
+# --- 基本信息 ---
+title: Sakuro's Website            # 替换成你的网站标题
+author: Sakuro                     # 替换成你的名字
+email: your.email@example.com    # 替换成你的邮箱
+description: >-                    # 网站描述，可以多写几句
+  My personal space online. Sharing photos, projects, and thoughts.
+url: "https://5akur0.github.io"    # 你的网站最终的网址
+github_username: 5akur0            # 你的 GitHub 用户名
+
+# --- 构建设置 ---
+markdown: kramdown             # 使用的 Markdown 渲染器
+plugins:                       # 使用的插件列表
+  - jekyll-feed
+
+# --- 排除文件 ---
+# 下列文件或文件夹不会被 Jekyll 处理
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md # 如果你只想让 README 在 GitHub 仓库里可见，而非网站一部分
+#   - vendor/bundle/
+#   - node_modules/

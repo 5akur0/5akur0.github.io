@@ -1,0 +1,92 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #fdfdfd;
+    color: #333;
+}
+
+.container {
+    max-width: 800px; /* 限制内容区域宽度 */
+    margin: 20px auto; /* 居中显示 */
+    padding: 0 20px;
+    background-color: #fff;
+    border: 1px solid #eee;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.site-header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+.site-header h1 a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+.site-header p {
+    color: #ccc;
+    font-size: 0.9em;
+    margin-top: 0.5em;
+}
+
+.site-nav {
+    background-color: #444;
+    text-align: center;
+    padding: 0.5rem 0;
+}
+.site-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.site-nav ul li {
+    display: inline-block; /* 水平排列 */
+    margin: 0 10px;
+}
+.site-nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+.site-nav ul li a:hover {
+    background-color: #555;
+}
+
+main {
+    padding: 20px 0; /* 给主要内容一些上下边距 */
+}
+
+.site-footer {
+    text-align: center;
+    margin-top: 40px;
+    padding: 20px 0;
+    font-size: 0.8em;
+    color: #777;
+    border-top: 1px solid #eee;
+}
+
+h1, h2, h3 {
+    color: #2a2a2a;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+/* 可以为特定页面元素添加更多样式 */
+.film-roll-list .film-roll-item {
+    border-bottom: 1px dashed #ccc;
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+}
+.film-roll-list .film-roll-item:last-child {
+    border-bottom: none;
+}

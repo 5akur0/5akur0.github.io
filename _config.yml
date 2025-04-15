@@ -2,8 +2,7 @@
 title: Sakuro's Website            # 替换成你的网站标题
 author: Sakuro                     # 替换成你的名字
 email: your.email@example.com    # 替换成你的邮箱
-description: >-                    # 网站描述，可以多写几句
-  My personal space online. Sharing photos, projects, and thoughts.
+description: "             My personal space online.          Sharing photos, projects, and thoughts."
 url: "https://5akur0.github.io"    # 你的网站最终的网址
 github_username: 5akur0            # 你的 GitHub 用户名
 

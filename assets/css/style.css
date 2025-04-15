@@ -1,47 +1,60 @@
-body {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-    line-height: 1.6;
+/* 添加或修改 html, body 样式 */
+html, body {
+    height: 100%;
     margin: 0;
     padding: 0;
-    background-color: #fdfdfd;
-    color: #333;
+    width: 100vw; /* 确保占满视口宽度 */
+    overflow-x: hidden; /* 防止水平滚动条 */
 }
 
 .container {
     max-width: 800px; /* 限制内容区域宽度 */
-    margin: 20px auto; /* 居中显示 */
+    margin: 0 auto; /* 居中显示 */
     padding: 0 20px;
     background-color: #fff;
     border: 1px solid #eee;
     box-shadow: 0 1px 3px rgba(0,0,0,0.1);
 }
 
-.site-header {
-    /* background-color: #333; */ /* 禁用背景颜色 */
-    color: #fff;                 /* 保持文字为白色，稍后检查可读性 */
-    padding: 6rem 0;            /* 显著增加上下内边距，你可以调整这个数值 */
-    text-align: center;
 
-    /* ---- 添加背景图片部分 ---- */
-    background-image: url('https://res.cloudinary.com/dm03cvvi2/image/upload/v1744643092/250409000028360015_fuuoeg.jpg'); /* 你的图片链接 */
-    background-size: cover;       /* 图片覆盖整个区域 */
-    background-position: center center; /* 图片居中 */
-    background-repeat: no-repeat; /* 不重复 */
-    /* ---- 背景图片部分结束 ---- */
+/* 修改 .site-header 样式 */
+.site-header {
+    width: 100vw; /* 使用视口宽度单位 */
+    height: 27vw;
+    max-height: 100vh; /* 防止在宽屏上太高 */
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    /* 背景图片部分 */
+    background-image: url('https://res.cloudinary.com/dm03cvvi2/image/upload/v1744643092/250409000028360015_fuuoeg.jpg');
+    background-size: contain; /* 改为 contain 以完整显示图片 */
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-color: #000; /* 添加背景色，防止图片加载前白屏 */
 }
 
 .site-header h1 a {
-    color: #fff;
+    color: #ffffff;
     text-decoration: none;
     font-family: "Tangerine", cursive;
     font-weight: 400;
     font-style: normal;
-    font-size: 3em;
+    font-size: 4em;
 }
+
 .site-header p {
-    color: #ccc;
-    font-size: 0.9em;
-    margin-top: 0.5em;
+    color: #ffffff;
+    font-family: "Poiret One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5em;
+    margin-top: 2em;
 }
 
 .site-nav {

@@ -1,4 +1,4 @@
 <header class="site-header">
-    <h1><a href="/">{{ site.title | escape }}</a></h1>
-    <p>{{ site.description | escape }}</p>
+    <h1><a href="/">{{ site.title | safe }}</a></h1>
+    <p style="white-space: pre;">{{ site.description | safe }}</p>
 </header>
